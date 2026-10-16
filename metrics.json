@@ -1,0 +1,39 @@
+{
+  "accuracy": 0.8734177215189873,
+  "train_rows": 316,
+  "test_rows": 79,
+  "report": {
+    "Needs Support": {
+      "precision": 0.7352941176470589,
+      "recall": 0.9615384615384616,
+      "f1-score": 0.8333333333333334,
+      "support": 26.0
+    },
+    "Likely to Pass": {
+      "precision": 0.9777777777777777,
+      "recall": 0.8301886792452831,
+      "f1-score": 0.8979591836734694,
+      "support": 53.0
+    },
+    "accuracy": 0.8734177215189873,
+    "macro avg": {
+      "precision": 0.8565359477124184,
+      "recall": 0.8958635703918723,
+      "f1-score": 0.8656462585034014,
+      "support": 79.0
+    },
+    "weighted avg": {
+      "precision": 0.897973028873997,
+      "recall": 0.8734177215189873,
+      "f1-score": 0.8766899164729183,
+      "support": 79.0
+    }
+  },
+  "features": [
+    "studytime",
+    "failures",
+    "absences",
+    "G1",
+    "G2"
+  ]
+}
